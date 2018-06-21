@@ -1,0 +1,33 @@
+From MAILER-DAEMON Thu Jun 21 09:15:12 2018
+From: foo@bar.com
+To: spam@eggs.co.uk
+Date: 2018-01-01 12:00
+
+This is a test
+
+From MAILER-DAEMON Thu Jun 21 09:15:13 2018
+To: spam@eggs.co.uk
+Date: 2018-01-01 12:00
+
+This is a second test
+
+From MAILER-DAEMON Thu Jun 21 09:15:13 2018
+Content-Type: multipart/alternative; boundary="===============1438705278=="
+From: foo@bar.com
+To: spam@eggs.co.uk
+Date: 2018-01-01 12:00
+
+--===============1438705278==
+From: foo@bar.com
+To: spam@eggs.co.uk
+Date: 2018-01-01 12:00
+
+This is a third test
+--===============1438705278==
+From: foo@bar.com
+To: spam@eggs.co.uk
+Date: 2018-01-01 12:00
+
+This is a fourth test
+--===============1438705278==--
+

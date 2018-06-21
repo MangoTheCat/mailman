@@ -5,7 +5,8 @@
 #'
 #' @return a data.frame with the headers and body of the messages
 #' @export
-read_messages <- function(path, type=c('mbox', 'MailDir', 'MH', 'Babyl', 'MMDF')){
+read_messages <- function(path,
+                          type=c('mbox', 'MailDir', 'MH', 'Babyl', 'MMDF')){
   my_mailbox <- get_mailbox(path, type)
 
   return(get_messages(my_mailbox))

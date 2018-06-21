@@ -1,4 +1,4 @@
 #' mailman: a wrapper around the python mailbox module
 #'
-#' @import reticulate
+#' @importFrom reticulate import py_module_available
 "_PACKAGE"

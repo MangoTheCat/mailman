@@ -2,4 +2,6 @@
 
 export(get_messages)
 export(read_messages)
-import(reticulate)
+importFrom(reticulate,import)
+importFrom(reticulate,py_module_available)
+importFrom(tibble,as_tibble)
