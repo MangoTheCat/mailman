@@ -6,6 +6,8 @@ Authors@R: person("Adnan", "Fiaz", role = c("aut", "cre"), email = "afiaz@mango-
 Description: The python mailbox module provides functionality to manipulate mailboxes in various formats.
     This package is a wrapper around the python module and exposes a number of functions from it.
 License: MIT + file LICENSE
+URL: https://github.com/MangoTheCat/mailman
+BugReports: https://github.com/MangoTheCat/mailman/issues
 Encoding: UTF-8
 LazyData: true
 Depends:
